@@ -6,7 +6,7 @@ import NavBar from '../components/Shared/Navbar';
 
 const Main = () => {
     return (
-        <div>
+        <div className='overflow-hidden'>
             <NavBar></NavBar>
             <Outlet></Outlet>
             <Footer></Footer>

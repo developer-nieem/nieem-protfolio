@@ -1,20 +1,126 @@
-import React from 'react';
+import React from "react";
 
 const Skills = () => {
-    return (
-        <div  className='text-white bg-light '>
-           <div>dh</div>
-           <div>dh</div>
-           <div>dh</div>
-           <div>dh</div>
-           <div>dh</div>
-           <div>dh</div>
-           <div>dh</div>
-           <div>dh</div>
-           <div>dh</div>
-           <div>dh</div>
+  return (
+    <div className="text-white bg-dark py-5">
+      <div className="container">
+        <h4 className="text-center text-danger">Why Choose Me</h4>
+        <h2 className="text-center">My Experience Area</h2>
+        <div className="row mt-5  ">
+          <div className="col-md-6">
+            <div className="mt-4">
+            <h4>HTML</h4>
+            <div
+              className="progress my-2"
+              role="progressbar"
+              aria-label="Animated striped example"
+              aria-valuenow="99"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div className="progress-bar progress-bar-striped  progress-bar-animated " style={{width:'99%'}}>99%</div>
+            </div>
+            </div>
+
+            <div className="mt-4">
+            <h4>CSS</h4>
+            <div
+              className="progress my-2"
+              role="progressbar"
+              aria-label="Animated striped example"
+              aria-valuenow="90"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div className="progress-bar progress-bar-striped  progress-bar-animated " style={{width:'90%'}}>90%</div>
+            </div>
+            </div>
+            <div className="mt-4">
+            <h4>BootStrap</h4>
+            <div
+              className="progress my-2"
+              role="progressbar"
+              aria-label="Animated striped example"
+              aria-valuenow="95"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div className="progress-bar progress-bar-striped  progress-bar-animated " style={{width:'95%'}}>95%</div>
+            </div>
+            </div>
+            <div className="mt-4">
+            <h4>Tailwind CSS</h4>
+            <div
+              className="progress my-2"
+              role="progressbar"
+              aria-label="Animated striped example"
+              aria-valuenow="85"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div className="progress-bar progress-bar-striped  progress-bar-animated " style={{width:'85%'}}>85%</div>
+            </div>
+            </div>
+          </div>
+          <div className="col-md-6 ">
+            <div className="mt-4 ms-5 ">
+            <h4>JavaScript</h4>
+            <div
+              className="progress my-2"
+              role="progressbar"
+              aria-label="Animated striped example"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div className="progress-bar progress-bar-striped  progress-bar-animated " style={{width:'75%'}}>75%</div>
+            </div>
+            </div>
+
+            <div className="mt-4 ms-5">
+            <h4>React JS</h4>
+            <div
+              className="progress my-2"
+              role="progressbar"
+              aria-label="Animated striped example"
+              aria-valuenow="85"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div className="progress-bar progress-bar-striped  progress-bar-animated " style={{width:'85%'}}>85%</div>
+            </div>
+            </div>
+            <div className="mt-4 ms-5">
+            <h4>Express JS & MongoDB</h4>
+            <div
+              className="progress my-2"
+              role="progressbar"
+              aria-label="Animated striped example"
+              aria-valuenow="60"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div className="progress-bar progress-bar-striped  progress-bar-animated " style={{width:'60%'}}>60%</div>
+            </div>
+            </div>
+            <div className="mt-4 ms-5">
+            <h4>WordPress</h4>
+            <div
+              className="progress my-2"
+              role="progressbar"
+              aria-label="Animated striped example"
+              aria-valuenow="88"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div className="progress-bar progress-bar-striped  progress-bar-animated " style={{width:'88%'}}>88%</div>
+            </div>
+            </div>
+          </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default Skills;

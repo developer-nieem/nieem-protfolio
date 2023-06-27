@@ -12,7 +12,7 @@ const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto text-white">
             <Nav.Link href="#home" className=' fs-5 fw-normal text-white'>Home</Nav.Link>
-            <Nav.Link href="#link" className=' fs-5 fw-normal text-white'>About Us</Nav.Link>
+            <Nav.Link href="#about" className=' fs-5 fw-normal text-white'>About Us</Nav.Link>
             <Nav.Link href="#link" className='fs-5 fw-normal text-white'>Projects</Nav.Link>
             <Nav.Link href="#link" className=' fs-5 fw-normal text-white'>Contact Us</Nav.Link>
           </Nav>
