@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            
+        <div className='bg-dark pb-4'>
+            <p className='text-center text-white'>Developed By Nieem Hossen</p>
         </div>
     );
 };

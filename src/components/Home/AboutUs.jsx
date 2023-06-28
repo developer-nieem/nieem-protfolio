@@ -46,7 +46,7 @@ const AboutUs = () => {
             </div>
           </div>
 
-          <div data-aos="zoom-in-up" className="col-md-6 ms-5 mt-5 text-black">
+          <div data-aos="zoom-in-up" className="col-md-6 ms-5 mt-5 text-black about-mobile">
             <h2 >I'M NIEEM HOSSEN</h2>
             <h5>I'm a MERN Stack developer</h5>
             <p >I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions. Check out my Portfolio</p>
@@ -56,7 +56,7 @@ const AboutUs = () => {
           <p> <FaSkype></FaSkype> live:nieemhossen </p>
 
             <a onClick={downloadPdf} className="btn btn-success text-uppercase m-1" download>Download Resum</a>
-            <button className="btn btn-info text-uppercase m-1">Hire Me </button>
+            <a href="#contact" className="btn btn-info text-uppercase m-1">Hire Me </a>
           </div>
         </div>
       </div>

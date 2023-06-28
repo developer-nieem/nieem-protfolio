@@ -23,7 +23,7 @@ const Banner = () => {
         <div className="col-md-6 ">
           <div className="">
             <h4 className="text-white">Hello There!</h4>
-            <h1 className="text-white " style={{ fontSize: "50px" }}>
+            <h1 className="text-white mobile-text" style={{ fontSize: "50px" }}>
               I'm{" "}
               <Typed
                 strings={["NIEEM HOSSEN"]}

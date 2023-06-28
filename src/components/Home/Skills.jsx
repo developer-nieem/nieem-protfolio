@@ -8,7 +8,7 @@ const Skills = () => {
         AOS.refresh(); // Refresh AOS on component updates
       }, []);
   return (
-    <div className="text-white bg-dark py-5">
+    <div id="skills" className="text-white bg-dark py-5">
       <div className="container">
         <h4 className="text-center text-danger">Why Choose Me</h4>
         <h2 className="text-center">My Experience Area</h2>
@@ -69,7 +69,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="col-md-6 ">
-            <div data-aos="fade-left" className="mt-4 ms-5 ">
+            <div data-aos="fade-left" className="mt-4 ms-5 mobile-skills">
             <h4>JavaScript</h4>
             <div
               className="progress my-2"
@@ -83,7 +83,7 @@ const Skills = () => {
             </div>
             </div>
 
-            <div data-aos="fade-left" className="mt-4 ms-5">
+            <div data-aos="fade-left" className="mt-4 ms-5 mobile-skills">
             <h4>React JS</h4>
             <div
               className="progress my-2"
@@ -96,7 +96,7 @@ const Skills = () => {
               <div className="progress-bar progress-bar-striped  progress-bar-animated " style={{width:'85%'}}>85%</div>
             </div>
             </div>
-            <div data-aos="fade-left" className="mt-4 ms-5">
+            <div data-aos="fade-left" className="mt-4 ms-5 mobile-skills">
             <h4>Express JS & MongoDB</h4>
             <div
               className="progress my-2"
@@ -109,7 +109,7 @@ const Skills = () => {
               <div className="progress-bar progress-bar-striped  progress-bar-animated " style={{width:'60%'}}>60%</div>
             </div>
             </div>
-            <div data-aos="fade-left" className="mt-4 ms-5">
+            <div data-aos="fade-left" className="mt-4 ms-5 mobile-skills">
             <h4>WordPress</h4>
             <div
               className="progress my-2"
