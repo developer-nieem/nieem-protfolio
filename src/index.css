@@ -32,8 +32,13 @@
     height: 100%;
     object-fit: cover;
     object-position: top center;
-    transition: all 2s ease-in-out;
+    transition: all 5s ease-in-out;
 }
 .modal-images:hover img {
     object-position: bottom center;
+}
+
+.modal-content-custom{
+    height: 350px;
+    overflow-y: scroll;
 }
