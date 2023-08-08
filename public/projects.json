@@ -1,33 +1,59 @@
 [
-    {
-      "projectName": "BD NM FoodValley",
-      "projectImage": "image1.jpg",
-      "projectCategory": "Full Stack",
-      "liveLink": "https://bd-nm-foodvalley.web.app/",
-      "githubClientRepo": "https://github.com/developer-nieem/BD-NM-FoodValley-client",
-      "githubServerRepo": "https://github.com/your-username/project1-server",
-      "technologies": ["React", "Node.js", "Express.js"],
-      "details": "We have a header section with brand name , navbar, and profile option profile option is conditional. if user logged in its show and if you hover the photo will be show the user name And second section is banner section just static design.  Third Section also same , its also static design",
-      "importainsFeatures": [
-        "Chef information section we load data using fetch with API and load data. and we have a view recipes button that generate dynamic path and show the chef details with recipes features * spacial things is when click view recipes is goest to login page if you login successfully you see the page",
-        "We have login and register features that make FireBase",
-        "we have many other thing like app download section, footer section , error page , lazy load image etc."
-      ]
+  {
+    "id":1,
+    "image": "https://i.ibb.co/N7mJhSB/screencapture-nm-sports-academy-web-app-2023-06-28-16-28-25.png",
+    "name": "BD NM SPORTS ACADEMY",
+    "category": "Full Stack Development",
+    "source": {
+      "live_link": "https://nm-sports-academy.web.app/",
+      "client_repo": "https://github.com/developer-nieem/nm-sports-academy-client",
+      "srepo": "https://github.com/developer-nieem/nm-sports-academy-server"
     },
-    {
-      "projectName": "NM CARS TOYS STORE",
-      "projectImage": "image1.jpg",
-      "projectCategory": "Full Stack",
-      "liveLink": "https://toys-car-42e62.web.app/",
-      "githubClientRepo": "https://github.com/developer-nieem/nm-cars-toys-store-client",
-      "githubServerRepo": "https://github.com/your-username/project1-server",
-      "technologies": ["React", "Node.js", "Express.js"],
-      "details": "we have a navbar with 5 item 2 items is private when user login see the item , with see the profile picture. Home page have five section like ,Banner , Gallery , Category with sub category , choose us , about me(mission and faq) . Category section with have a Tab load dynamic car toys data and showing per tab at least 2 data . Also we have login and register system",
-      "importainsFeatures": [
-        "add a toy : we can add toys your profile",
-        "my toy : You can see your all added toys and you can do update or edit and delete your posted data",
-        "all toy : you can see all user toys and also can see details"
-      ]
-    }
-
-  ]
+    "technologies": ["Tailwind CSS", "React JS", "Express Js", "MongoDB", "FireBase", "react-router", "react-router", "hook-form", "Tanstack", "axios", "axios" , "stripe"],
+    "projectsFeatures": ["we have a navbar with 4 item 1 items is private. when user login see the Dashboard , with see the profile picture", "Home page have 4 section like , Slider , Popular Classes , Popular Instructors , Feature" , "Have instructor and classes page , you can see all instructor and all approved classes by admin", "Also we have login and register system by firebase and user store on ## mongoDB"],
+    "most_importantFeatures": ["Students dashboard : Have 3 item on students dashboard. ---   \n## my selected class : you can see all your selected class and you can pay with strip your selected classes. \n## my Enrolled class : you can see all your Enrolled class that you paid successfully. \n## Payment history : You can see your all payment history.", "Instructor dashboard : Have 2 item on Instructor dashboard. --- \n## Add a class : instructor can add classes. \n## my classes : instructor see all posted classes that have pending and approved   ", "Admin Dashboard : Have 2 item on Admin Dashboard. --- \n### Manage classes : Admin can approve and deny classes that post from instructor . if admin deny class not showing on then classes page . also admin send feedback why approved or deny. \n### Manage Users : admin can make a user as instructor / admin"]
+  },
+  {
+    "id":2,
+    "image": "https://i.ibb.co/GCpzm6F/screencapture-toys-car-42e62-web-app-2023-06-28-16-21-41.png",
+    "name": "NM CARS TOYS STORE",
+    "category": "Full Stack Development",
+    "source": {
+      "live_link": "https://toys-car-42e62.web.app/",
+      "client_repo": "https://github.com/developer-nieem/nm-cars-toys-store-client",
+      "srepo": "https://github.com/developer-nieem/nm-cars-toys-store-server"
+    },
+    "technologies": ["Bootstrap", "React JS", "Express Js", "MongoDB", "FireBase"],
+    "projectsFeatures": ["we have a navbar with 5 item 2 items is private when user login see the item , with see the profile picture", "Home page have five section like , Banner , Gallery , Category with sub category , choose us , about me(mission and faq)" , "Category section with have a Tab load dynamic car toys data and showing per tab at least 2 data", "Also we have login and register system "],
+    "most_importantFeatures": ["add a toy : we can add toys your profile ", "my toy : You can see your all added toys and you can do update or edit and delete your posted data", "all toy : you can see all user toys and also can see details "]
+  },
+  {
+    "id":3,
+    "image": "https://i.ibb.co/R0m28y4/33a0db82-c50f-4ad9-842f-553b377072ac.png",
+    "name": "BD NM FOODVALLEY",
+    "category": "Front End Development",
+    "source": {
+      "live_link": "https://bd-nm-foodvalley.web.app/",
+      "client_repo": "https://github.com/developer-nieem/BD-NM-FoodValley-client",
+      "srepo": "https://github.com/developer-nieem/BD-NM-FoodValley-Server"
+    },
+    "technologies": ["Bootstrap", "React JS", "Express Js", "MongoDB", "FireBase"],
+    "projectsFeatures": ["We have a header section with brand name , navbar, and profile option profile option is conditional. if user logged in its show and if you hover the photo will be show the user name", "And second section is banner section just static design" , "Third Section also same , its also static design"],
+    "most_importantFeatures": ["Chef information section we load data using fetch with API and load data. and we have a view recipes button that generate dynamic path and show the chef details with recipes features * spacial things is when click view recipes is goest to login page if you login successfully you see the page", "We have login and register features that make FireBase", "we have many other thing like app download section, footer section , error page , lazy load image etc."]
+  },
+  {
+    "id":4,
+    "image": "https://i.ibb.co/RPc143K/screencapture-ph-assignment-nine9-netlify-app-2023-06-28-16-42-49.png",
+    "name": "DevJOB Hub",
+    "category": "Full Stack Development",
+    "source": {
+      "live_link": "https://ph-assignment-nine9.netlify.app/",
+      "client_repo": "https://github.com/developer-nieem/DevJOB-Hub",
+      "srepo": ""
+    },
+    "technologies": ["Bootstrap", "React JS", "React-bootstrap", "React-toastify", "recharts"],
+    "projectsFeatures": ["We have a good Header with responsive  " , "And also have a banner part", "third section we have dynamic jobs category"],
+    "most_importantFeatures": ["We have a jobs feature list you can see the job circular with some details and when you click the view Details you can see the open a new page for all details and you can get a option for apply the jobs", "You have to show a chart with marks details"]
+  }
+  
+]

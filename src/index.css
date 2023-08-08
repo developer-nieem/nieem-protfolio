@@ -60,6 +60,10 @@
     .mobile-text{
         font-size: 24px !important;
     }
+    .mobile-single-projects{
+        margin-top: 40px;
+        margin-left: 5px !important;
+    }
     .about-mobile{
         margin-left: 0px !important;
     }
