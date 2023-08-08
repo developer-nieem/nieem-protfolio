@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Container, Nav , Navbar} from 'react-bootstrap';
+import { Button, Container, Nav , Navbar} from 'react-bootstrap';
+import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
@@ -23,7 +24,7 @@ const NavBar = () => {
     return (
         <div className='text-white '>
             
-        <Navbar id="navbar-example2" expand="lg" className={` fixed-top ${navbar ? 'bg-black' : 'bg-transparent'}`}>
+        <Navbar id="navbar-example2" expand="lg" className={` fixed-top ${navbar ? 'bg-black ' : 'bg-transparent'}`}>
       <Container>
         <Navbar.Brand href="#home" className='fw-bold text-white'>NIEEM HOSSEN</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav " className='bg-white' />
@@ -35,6 +36,7 @@ const NavBar = () => {
             <Nav.Link href="#projects" className='fs-5 fw-normal text-white'>Projects</Nav.Link>
             <Nav.Link href="#contact" className=' fs-5 fw-normal text-white'>Contact Us</Nav.Link>
           </Nav>
+         
         </Navbar.Collapse>
       </Container>
     </Navbar>

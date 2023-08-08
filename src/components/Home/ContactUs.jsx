@@ -47,10 +47,12 @@ const ContactUs = () => {
               Please fill out the form on this section to contact with me. Or
               call between 9:00 a.m. and 8:00 p.m. , Available All Days{" "}
             </p>
-            <Link className="fs-2 text-white text-decoration-none" to="https://web.facebook.com/developernieem"> <FaFacebookSquare></FaFacebookSquare> </Link>
             <a className="fs-2 text-white text-decoration-none" href="https://www.linkedin.com/in/nieemhossen/"> <FaLinkedin></FaLinkedin> </a>
-            <a className="fs-2 text-white text-decoration-none" href="https://twitter.com/nieemhossen"> <FaTwitterSquare></FaTwitterSquare> </a>
             <a className="fs-2 text-white text-decoration-none" href="https://github.com/developer-nieem"> <FaGithubSquare></FaGithubSquare> </a>
+            <Link className="fs-2 text-white text-decoration-none" to="https://web.facebook.com/developernieem"> <FaFacebookSquare></FaFacebookSquare> </Link>
+            <a className="fs-2 text-white text-decoration-none" href="https://twitter.com/nieemhossen"> <FaTwitterSquare></FaTwitterSquare> </a>
+          
+            
           </div>
           <div className="col-md-6 ">
             <form ref={form} onSubmit={sendEmail}>

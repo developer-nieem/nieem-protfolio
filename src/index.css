@@ -50,6 +50,13 @@
 /* responsive */
 
 @media (max-width: 769px) {
+    .m-hero{
+        padding-top: 100px;
+        z-index: 1;
+    }
+    .show{
+        background: #000 !important;
+    }
     .mobile-text{
         font-size: 24px !important;
     }

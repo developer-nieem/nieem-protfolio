@@ -21,7 +21,7 @@ const Banner = () => {
     <div id="home" className="container">
       <div className="row align-items-center">
         <div className="col-md-6 ">
-          <div className="">
+          <div className="m-hero">
             <h4 className="text-white">Hello There!</h4>
             <h1 className="text-white mobile-text" style={{ fontSize: "50px" }}>
               I'm{" "}
@@ -36,10 +36,10 @@ const Banner = () => {
             <div className="w-75">
               <Marquee speed={30}>
                 <button className="btn btn-outline-primary text-white m-1">
-                  Web Designer
+                  Front End Developer
                 </button>
                 <button className="btn btn-outline-primary text-white m-1">
-                  Web Developer
+                  React Js Developer
                 </button>
                 <button className="btn btn-outline-primary text-white m-1 ">
                   WordPress Expert

@@ -3,10 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Skills = () => {
-    useEffect(() => {
-        AOS.init();
-        AOS.refresh(); // Refresh AOS on component updates
-      }, []);
+    
   return (
     <div id="skills" className="text-white bg-dark py-5">
       <div className="container">
@@ -14,7 +11,7 @@ const Skills = () => {
         <h2 className="text-center">My Experience Area</h2>
         <div className="row mt-5  ">
           <div className="col-md-6">
-            <div data-aos="fade-right" className="mt-4">
+            <div  className="mt-4">
             <h4>HTML</h4>
             <div
               className="progress my-2"
@@ -28,7 +25,7 @@ const Skills = () => {
             </div>
             </div>
 
-            <div data-aos="fade-right" className="mt-4">
+            <div  className="mt-4">
             <h4>CSS</h4>
             <div
               className="progress my-2"
@@ -41,7 +38,7 @@ const Skills = () => {
               <div className="progress-bar progress-bar-striped  progress-bar-animated " style={{width:'90%'}}>90%</div>
             </div>
             </div>
-            <div data-aos="fade-right" className="mt-4">
+            <div  className="mt-4">
             <h4>BootStrap</h4>
             <div
               className="progress my-2"
@@ -54,7 +51,7 @@ const Skills = () => {
               <div className="progress-bar progress-bar-striped  progress-bar-animated " style={{width:'95%'}}>95%</div>
             </div>
             </div>
-            <div data-aos="fade-right" className="mt-4">
+            <div  className="mt-4">
             <h4>Tailwind CSS</h4>
             <div
               className="progress my-2"
@@ -69,7 +66,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="col-md-6 ">
-            <div data-aos="fade-left" className="mt-4 ms-5 mobile-skills">
+            <div  className="mt-4 ms-5 mobile-skills">
             <h4>JavaScript</h4>
             <div
               className="progress my-2"
@@ -83,7 +80,7 @@ const Skills = () => {
             </div>
             </div>
 
-            <div data-aos="fade-left" className="mt-4 ms-5 mobile-skills">
+            <div  className="mt-4 ms-5 mobile-skills">
             <h4>React JS</h4>
             <div
               className="progress my-2"
@@ -96,7 +93,7 @@ const Skills = () => {
               <div className="progress-bar progress-bar-striped  progress-bar-animated " style={{width:'85%'}}>85%</div>
             </div>
             </div>
-            <div data-aos="fade-left" className="mt-4 ms-5 mobile-skills">
+            <div  className="mt-4 ms-5 mobile-skills">
             <h4>Express JS & MongoDB</h4>
             <div
               className="progress my-2"
@@ -109,7 +106,7 @@ const Skills = () => {
               <div className="progress-bar progress-bar-striped  progress-bar-animated " style={{width:'60%'}}>60%</div>
             </div>
             </div>
-            <div data-aos="fade-left" className="mt-4 ms-5 mobile-skills">
+            <div  className="mt-4 ms-5 mobile-skills">
             <h4>WordPress</h4>
             <div
               className="progress my-2"
