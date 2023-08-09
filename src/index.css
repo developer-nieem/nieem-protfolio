@@ -47,6 +47,39 @@
     font-size: 18px !important;
 }
 
+.skills-img{
+    width: 70px !important;
+    margin: 0 auto;
+}
+.skills-img-js{
+    width: 126px !important;
+}
+.skills-img-shopify{
+    width: 60px !important;
+}
+
+.skills-img-bootstrap{
+    width: 85px !important;
+}
+.skills-img-firebase{
+    width: 52px !important;
+}
+
+
+/*  */
+
+.div-animation{
+    animation: move 5s infinite ;
+}
+@keyframes move {
+    0%, 100% {
+        transform:  scale(0.8);
+    }
+    50% {
+        transform:  scale(1.1);
+    }
+}
+
 /* responsive */
 
 @media (max-width: 769px) {

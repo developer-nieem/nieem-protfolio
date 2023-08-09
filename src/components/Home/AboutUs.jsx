@@ -51,7 +51,7 @@ const AboutUs = () => {
          <div  className="col-md-6 ms-5 mt-5 text-black about-mobile">
             <h2 >I'M NIEEM HOSSEN</h2>
             <h5>I'm a MERN Stack developer</h5>
-            <p >I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions. Check out my Portfolio</p>
+            <p >I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions. Check out my Resume</p>
             
           <p> <FaEnvelope></FaEnvelope> nieemhossen@gmail.com</p>
           <p> <FaWhatsapp></FaWhatsapp> +880 17441 12183</p>

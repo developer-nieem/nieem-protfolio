@@ -58,11 +58,11 @@ const ContactUs = () => {
             <form ref={form} onSubmit={sendEmail}>
             <div className="my-3">
             <label className="text-white ">Name</label>
-              <input className="form-control " type="text" name="user_name" />
+              <input className="form-control " type="text" required name="user_name" />
             </div>
              <div className="my-3">
              <label className="text-white ">Email</label>
-              <input className="form-control " type="email" name="user_email" />
+              <input className="form-control " required  type="email" name="user_email" />
              </div>
              <div className="my-3">
              <label className="text-white ">Message</label>
