@@ -3,7 +3,7 @@
     "id":1,
     "image": "https://i.ibb.co/vVSjkvf/6f5dbba3-98ca-45bb-8729-c1e1d17edd0b.png",
     "name": "BD NM SPORTS ACADEMY",
-    "category": "Full Stack Development",
+    "category": "MERN Stack Development",
     "source": {
       "live_link": "https://nm-sports-academy.web.app/",
       "client_repo": "https://github.com/developer-nieem/nm-sports-academy-client",
@@ -17,7 +17,7 @@
     "id":2,
     "image": "https://i.ibb.co/GCpzm6F/screencapture-toys-car-42e62-web-app-2023-06-28-16-21-41.png",
     "name": "NM CARS TOYS STORE",
-    "category": "Full Stack Development",
+    "category": "MERN Stack Development",
     "source": {
       "live_link": "https://toys-car-42e62.web.app/",
       "client_repo": "https://github.com/developer-nieem/nm-cars-toys-store-client",
@@ -31,7 +31,7 @@
     "id":3,
     "image": "https://i.ibb.co/R0m28y4/33a0db82-c50f-4ad9-842f-553b377072ac.png",
     "name": "BD NM FOODVALLEY",
-    "category": "Front End Development",
+    "category": "MERN Stack Development",
     "source": {
       "live_link": "https://bd-nm-foodvalley.web.app/",
       "client_repo": "https://github.com/developer-nieem/BD-NM-FoodValley-client",
@@ -45,7 +45,7 @@
     "id":4,
     "image": "https://i.ibb.co/RPc143K/screencapture-ph-assignment-nine9-netlify-app-2023-06-28-16-42-49.png",
     "name": "DevJOB Hub",
-    "category": "Full Stack Development",
+    "category": "Front End Development",
     "source": {
       "live_link": "https://ph-assignment-nine9.netlify.app/",
       "client_repo": "https://github.com/developer-nieem/DevJOB-Hub",

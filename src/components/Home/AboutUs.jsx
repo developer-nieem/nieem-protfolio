@@ -13,7 +13,7 @@ const AboutUs = () => {
             icon: 'success',
             title: 'Thanks for Download! ',
             showConfirmButton: false,
-            timer: 1500
+            timer: 4000
           })
 
       };
@@ -26,7 +26,7 @@ const AboutUs = () => {
             icon: 'success',
             title: 'Thanks for Download! ',
             showConfirmButton: false,
-            timer: 1500
+            timer: 4000
           })
 
       };
