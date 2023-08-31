@@ -18,6 +18,19 @@ const AboutUs = () => {
 
       };
 
+    const downloadCV = () => {
+        window.open('https://drive.google.com/u/1/uc?id=1QHYSNrr776EancId8UJwvilHQJZr5V6G&export=download', '_parent');
+
+        Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'Thanks for Download! ',
+            showConfirmButton: false,
+            timer: 1500
+          })
+
+      };
+
       useEffect(() => {
        
         
@@ -56,7 +69,8 @@ const AboutUs = () => {
           <p> <FaEnvelope></FaEnvelope> nieemhossen@gmail.com</p>
           <p> <FaWhatsapp></FaWhatsapp> +880 17441 12183</p>
           <p> <FaSkype></FaSkype> live:nieemhossen </p>
-            <a onClick={downloadPdf} className="btn btn-success text-uppercase m-1" download>Download Resum</a>
+            <a onClick={downloadPdf} className="btn btn-success text-uppercase m-1" download>Download Resume</a>
+            <a onClick={downloadCV} className="btn btn-secondary text-uppercase m-1" download>Download CV</a>
             <a href="#contact" className="btn btn-info text-uppercase m-1">Hire Me </a>
           </div>
          </Fade>

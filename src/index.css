@@ -1,3 +1,20 @@
+p{
+    font-family: roboto;
+    font-weight: 400;
+}
+
+h2 , h5 , h4, h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nv-font{
+    font-family: 'REM', sans-serif;
+}
+
+.logo-font{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
 .about-img{
     border-width: 15px !important;
 }
