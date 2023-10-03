@@ -1,7 +1,7 @@
 [
   {
     "id":1,
-    "image": "https://i.ibb.co/vVSjkvf/6f5dbba3-98ca-45bb-8729-c1e1d17edd0b.png",
+    "image":"https://i.ibb.co/545VX6J/nm-sports-academy-web-app-2023-10-03-20-13-55.png",
     "name": "BD NM SPORTS ACADEMY",
     "category": "MERN Stack Development",
     "source": {
@@ -9,8 +9,8 @@
       "client_repo": "https://github.com/developer-nieem/nm-sports-academy-client",
       "srepo": "https://github.com/developer-nieem/nm-sports-academy-server"
     },
-    "technologies": ["Tailwind CSS", "React JS", "Express Js", "MongoDB", "FireBase", "react-router", "react-router", "hook-form", "Tanstack", "axios", "axios" , "stripe"],
-    "projectsFeatures": ["we have a navbar with 4 item 1 items is private. when user login see the Dashboard , with see the profile picture", "Home page have 4 section like , Slider , Popular Classes , Popular Instructors , Feature" , "Have instructor and classes page , you can see all instructor and all approved classes by admin", "Also we have login and register system by firebase and user store on ## mongoDB"],
+    "technologies": ["Tailwind CSS", "React JS", "Express Js", "MongoDB", "FireBase", "react-router", "react-router", "hook-form", "Tanstack", "axios", "EmailJS" , "stripe" , "react leaflet"],
+    "projectsFeatures": ["we have a navbar with 4 item 1 items is private. when user login see the Dashboard , with see the profile picture", "Home page have 4 section like , Slider , Popular Classes , Popular Instructors , Feature" , "Have instructor and classes page , you can see all instructor and all approved classes by admin", "Also we have login and register system by firebase and user store on ## mongoDB" , "Incorporated a professional Google Maps integration using React Leaflet and implemented a Contact Form powered by EmailJS on the homepage's Contact section."],
     "most_importantFeatures": ["Students dashboard : Have 3 item on students dashboard. ---   \n## my selected class : you can see all your selected class and you can pay with strip your selected classes. \n## my Enrolled class : you can see all your Enrolled class that you paid successfully. \n## Payment history : You can see your all payment history.", "Instructor dashboard : Have 2 item on Instructor dashboard. --- \n## Add a class : instructor can add classes. \n## my classes : instructor see all posted classes that have pending and approved   ", "Admin Dashboard : Have 2 item on Admin Dashboard. --- \n### Manage classes : Admin can approve and deny classes that post from instructor . if admin deny class not showing on then classes page . also admin send feedback why approved or deny. \n### Manage Users : admin can make a user as instructor / admin"]
   },
   {

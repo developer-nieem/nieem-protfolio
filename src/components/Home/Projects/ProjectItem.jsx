@@ -66,6 +66,8 @@ const ProjectItem = () => {
                   >
                     View Details
                   </Link>
+
+                  <Link to={project?.source?.live_link} className="btn btn-dark mx-2" target="_blank">Live Preview</Link>
                 </div>
               </div>
             </div>
